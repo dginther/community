@@ -78,7 +78,7 @@ class malsysproc(common.AbstractWindowsCommand):
                              "-k localservice",
                              "-k bthsvcs",
                              "-k imgsvc",
-                             "-ktermsvcs",
+                             "-k termsvcs",
                              "-k regsvc",
                              "-k winerr",
                              "-k tapisrv",
